@@ -4,18 +4,33 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./tabla.css">
+        <link rel="stylesheet" href="./index.css">
         <title>Tabla punto 1</title>
 </head>
 <body>
-    <table>
-        <td>Recursos</td>
-        <tr>facturacion de los ultimos tres meses
-            <td>Discos Duros</td>
-            <td>CPU</td>
-            <td>Monitores</td>
+    <table class="tabla">       
+        <tr>
+            <th rowspan="4" class="tabla1">Recursos</th>
+            <th colspan="4" class="tabla">Facturacion de los ultimos tres meses</th>
+        </tcaption>
+        <tr>
+            <td class="tabla">Discos Duros</td>
+            <td class="tabla">2300</td>
+            <td class="tabla">2700</td>
+            <td class="tabla">2600</td>
         </tr>
-
+        <tr>
+            <td class="tabla">CPU</td>
+            <td class="tabla">7300</td>
+            <td class="tabla">6730</td>
+            <td class="tabla">5100</td>
+        </tr>
+        <tr>
+            <td class="tabla">Monitores</td>
+            <td class="tabla">5300</td>
+            <td class="tabla">7200</td>
+            <td class="tabla">8800</td>
+        </tr>
     </table>
 </body>
 </html>
